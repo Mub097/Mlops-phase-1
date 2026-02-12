@@ -8,13 +8,13 @@ accuracy_percent = accuracy * 100
 total_sample = 1000
 correct_predictions = 873 
 accuracy = correct_predictions / total_sample
-print(f" accuracy: {accuracy*100:.2f}%")
+#print(f" accuracy: {accuracy*100:.2f}%")
 
 
 number = 42
 
 number= int(number)
-#number= float(number)
+number= float(number)
 
 print(type(number))
 
