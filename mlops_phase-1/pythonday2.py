@@ -1,7 +1,8 @@
-name = "usman"
-role = "mlops-engineer"
+model_name = "logistic Regression"
+accuracy = 0.8765
 
-print(name)
-print(role)
+#Convert the accuracy into percentage
 
-print(f"{name} is becoming a {role}")
+accuracy_percent = accuracy * 100
+print(f"Model: {model_name}")
+print(f"Accuracy: {accuracy_percent:.2f}%")
